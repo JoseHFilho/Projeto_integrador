@@ -6,7 +6,3 @@ def criar_grupo():
 
     print(f"\nGrupo '{nome_grupo}' de {esporte} criado por {criador} com sucesso!")
     return nome_grupo, esporte, [criador]
-
-# Execução
-if __name__ == "__main__":
-    nome, esporte, membros = criar_grupo()
