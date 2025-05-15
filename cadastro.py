@@ -19,9 +19,3 @@ def verificar_login(cpf_cadastrado, senha_cadastrada, nome):
         print(f"\nBem-vindo(a), {nome}!")
     else:
         print("\nDados incorretos. Tente novamente!")
-
-
-# Execução principal
-if __name__ == "__main__":
-    nome, email, cpf, senha = cadastrar_usuario()
-    verificar_login(cpf, senha, nome)
